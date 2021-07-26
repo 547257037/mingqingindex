@@ -1,0 +1,333 @@
+
+查TC 血清总胆固醇
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%总胆固醇%' 
+血清总胆固醇[TCHOL]
+总胆固醇(T-CH)
+总胆固醇
+总胆固醇（CHOL）
+
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%T-CH%' 
+
+鎬昏儐鍥洪唶(T-CH)
+总胆固醇(T-CH)
+
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%TCHOL%' 
+血清总胆固醇[TCHOL]
+
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%CHOL%' 
+血清总胆固醇[TCHOL]
+总胆固醇（CHOL）
+
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%TC%' 
+复查总钙（RTCA）
+胆固醇(TC)
+二氧化碳总量(TCO2)
+血清总胆固醇[TCHOL]
+TCC替卡西林-克拉维酸
+血浆二氧化碳总量(TCO2)
+
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%CHOL%' 
+血清总胆固醇[TCHOL]
+总胆固醇（CHOL）
+
+结论1       T-CH  + 总胆固醇+胆固醇(TC) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+查 LDL
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%低密度脂蛋白%' 
+低密度脂蛋白胆固醇(LDL-C)
+低密度脂蛋白
+低密度脂蛋白(LDL)
+低密度脂蛋白胆固醇
+极低密度脂蛋白
+血清低密度脂蛋白胆固醇[LDL-CH]
+
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%LDL%' 
+低密度脂蛋白胆固醇(LDL-C)
+低密度脂蛋白(LDL)
+LDL-ch
+血清低密度脂蛋白胆固醇[LDL-CH]
+
+
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%LDL-C%' 
+低密度脂蛋白胆固醇(LDL-C)
+血清低密度脂蛋白胆固醇[LDL-CH]
+
+
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%LDL-CH%' 
+
+血清低密度脂蛋白胆固醇[LDL-CH]
+
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%LDL-ch%' 
+
+LDL-ch
+
+结论2   低密度脂蛋白 +LDL  （去除  极低密度脂蛋白）
+
+
+
+
+
+
+查 空腹血糖
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%空腹血糖%
+
+空腹血糖
+
+
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%GLU%' 
+
+葡萄糖（GLU）
+复查葡萄糖（RGLU）
+餐后快速血糖（GLU）
+两小时血糖(GLU/2.0)
+葡萄糖(GLU)
+胸腹水葡萄糖(GLU)
+一小时血糖(GLU/1.0)
+餐后1h血糖(1hGLU)
+餐后0.5小时血糖(0.5hGLU)
+尿糖(GLU)
+钁¤悇绯？GLU)
+餐后2h血糖(2hGLU)
+
+
+结论 空腹血糖
+
+
+
+
+查肌酐
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%肌酐%' 
+
+肌酐(Cr)
+尿肌酐
+尿白蛋白肌酐比值
+蛋白肌酐比值
+肌酐（CREA）
+尿微量白蛋白/肌酐
+腹透液肌酐
+尿液肌酐
+内生肌酐清除率
+复查肌酐
+肌酐(急诊)
+尿N-乙酰-β-D氨基糖苷酶/尿肌酐
+24小时尿肌酐(24h尿肌酐)
+白蛋白肌酐比
+尿微量白蛋白比肌酐
+肌酐清除率(24h)
+肌酐
+尿素/肌酐
+血清肌酐[CREA]
+尿微量白蛋白/尿肌酐
+
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%Cr%' 
+肌酐(Cr)
+NAG/Cr
+鑲岄厫(Cr)
+
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%CREA%' 
+
+肌酐（CREA）
+血清肌酐[CREA]
+
+
+结论  Cr+肌酐  （去除血清肌酐）
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+查 高密度脂蛋白
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%高密度脂蛋白%' 
+
+高密度脂蛋白胆固醇(HDL-C)
+血清高密度脂蛋白胆固醇[HDL-CH]
+高密度脂蛋白胆固醇
+高密度脂蛋白(HDL)
+高密度脂蛋白
+
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%HDL-C%' 
+高密度脂蛋白胆固醇(HDL-C)
+血清高密度脂蛋白胆固醇[HDL-CH]
+楂樺瘑搴﹁剛铔嬬櫧鑳嗗浐閱？HDL-C)
+
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%HDL%' 
+高密度脂蛋白胆固醇(HDL-C)
+血清高密度脂蛋白胆固醇[HDL-CH]
+高密度脂蛋白(HDL)
+HDL-ch
+楂樺瘑搴﹁剛铔嬬櫧鑳嗗浐閱？HDL-C)
+
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%HDL-CH%' 
+血清高密度脂蛋白胆固醇[HDL-CH]
+
+
+
+结论     HDL+高密度脂蛋白
+
+
+
+查 微量尿白蛋白
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%微量尿白蛋白%' 
+
+
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%alb%' 
+
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%尿白蛋白%' 
+尿白蛋白肌酐比值
+
+
+
+查糖化血红蛋白
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%糖化血红蛋白%' 
+糖化血红蛋白[HbA1C]
+糖化血红蛋白A1C
+糖化血红蛋白(HPLC)
+糖化血红蛋白（HbA1c）
+糖化血红蛋白(GHbA1c)
+糖化血红蛋白A1c
+糖化血红蛋白
+糖化血红蛋白(HBA1C)
+糖化血红蛋白1
+
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%HbA1C%' 
+糖化血红蛋白[HbA1C]
+
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%A1C%' 
+糖化血红蛋白[HbA1C]
+糖化血红蛋白A1C
+糖化血红蛋白(HBA1C)
+
+
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%HPLC%' 
+糖化血红蛋白(HPLC)
+
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%HbA1c%' 
+糖化血红蛋白（HbA1c）
+糖化血红蛋白(GHbA1c)
+
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%GHbA1c%' 
+糖化血红蛋白(GHbA1c)
+
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%A1c%' 
+糖化血红蛋白（HbA1c）
+糖化血红蛋白(GHbA1c)
+糖化血红蛋白A1c
+
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%HBA1C%' 
+糖化血红蛋白(HBA1C)
+
+结论 糖化血红蛋白
+
+
+
+查 同型半胱氨酸
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%同型半胱氨酸%' 
+
+同型半胱氨酸（HCY）
+血同型半胱氨酸(Hcy)
+同型半胱氨酸(HCY)
+同型半胱氨酸
+
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%HCY%' 
+同型半胱氨酸（HCY）
+同型半胱氨酸(HCY)
+SELECT DISTINCT JYXMMC FROM TEMP_JYXX WHERE JYXMMC
+LIKE '%Hcy%' 
+血同型半胱氨酸(Hcy)
+
+同型半胱氨酸（HCY）	SH_HCY
+同型半胱氨酸（HCY）	f25030800401
+同型半光氨酸	Hcy
+同型半胱氨酸	0286
+同型半胱氨酸	HCY
+同型半胱氨酸（HCY）	f25040203500
+同型半胱氨酸（HCY）	f25040304300
+同型半胱氨酸	8000000000000003
+同型半胱氨酸(HCY)	HCY
+同型半胱氨酸（HCY）	f25030601100
+血同型半胱氨酸(Hcy)	f25030601100
+同型半胱氨酸（HCY）	8000000000000003
+同型半胱氨酸（HCY）	f25030600900
+同型半胱氨酸（HCY）	f25040301900
+同型半胱氨酸(HCY)	f25030800401
+同型半胱氨酸(HCY)	SH_HCY
+同型半胱	HCY
+同型半胱氨酸（HCY）	f25030500500
+同型半胱氨酸(HCY)	8000000000000003
+同型半胱氨酸	Hcy
+同型半胱氨酸（HCY）	f25040301400
+同型半胱氨酸（HCY）	f25030800400
+同型半胱氨酸（HCY）	f25040400200
+同型半胱氨酸(HCY)	f25040305000
+同型半胱氨酸（HCY）	f25030690100
+同型半胱氨酸（HCY）	f25040301401
+同型半胱氨酸(HCY)	1000000000000001
+
+
+
+
+
+
+
+
+
